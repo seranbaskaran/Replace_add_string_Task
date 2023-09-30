@@ -1,0 +1,60 @@
+/* Reset default margin and padding */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color for the body */
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the main container */
+.main {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+/* Style the input fields */
+.input-field {
+    margin-bottom: 10px;
+}
+
+.input-field input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Style the error messages */
+.error-message {
+    color: red;
+    font-size: 14px;
+}
+
+/* Style the submit button */
+#submit {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Style the output container */
+.output-div {
+    margin-top: 20px;
+}
+
+/* Style the output text */
+#output {
+    font-size: 18px;
+    font-weight: bold;
+}

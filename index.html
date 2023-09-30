@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet"  href="style.css">
+</head>
+<body>
+    <div class="main">
+        <h2>Check and replace the string:</h2>
+        <div class="input-div">
+            <form action="" id="itemForm">
+                <div class="input-field">
+                    <input type="text" id="input1" placeholder="Enter a string" onkeypress="validateInput1()" required>
+                    <span id="input1Error" class="error-message"></span>
+                </div>
+                <div class="input-field">
+                    <input type="text" id="input2" placeholder="Enter a special character" onkeypress="validateInput2()" required>
+                    <span id="input2Error" class="error-message"></span>
+                </div>
+                <div class="input-field">
+                    <input type="text" id="input3" placeholder="Enter an alphabet" onkeypress="validateInput3()" required>
+                    <span id="input3Error" class="error-message"></span>
+                </div>
+                <button type="submit" id="submit">process</button>
+            </form>
+        </div>
+        <div class="output-div">
+            <p id="output"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
